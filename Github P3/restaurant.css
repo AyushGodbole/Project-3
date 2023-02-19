@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Red Rose", cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("pexels-maxyne-barcel-10402282\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR CSS */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:   30px 47px;
+    margin-top: 15px;
+}
+.navbar .logo img{
+    height: 38px;
+}
+.navbar .links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 47px;
+    margin-left: 5px;
+}
+.navbar .links ul li{
+    list-style: none;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Red Rose";
+}
+.navbar .links ul li a{
+    text-decoration: none;
+    color: #ffc233;
+    cursor: pointer;
+}
+.navbar .links ul li a:hover{
+    color: white;
+}
+
+.navbar .btn button{
+    padding: 6px 20px;
+    background-color: #ff505f;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    font-family: "Red Rose";
+}
+.navbar .btn button:hover{
+    border: 1px solid #ff505f;
+    background-color: white;
+    color: #ff505f;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/* MAIN PART CSS */
+.main-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-part p{
+    font-size: 70px;
+    font-weight: 900;
+    color: #ffc233;
+    margin-top: 104px;
+    padding-left: 154px;
+    font-family: "Dela Gothic One", cursive;
+    line-height: 70px;
+}
+.main-part button{
+    padding: 15px 35px;
+    background-color: #ff505f;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 118px;
+    border-radius: 4px;
+    font-family: "Red Rose";
+    margin-top: 30px;
+}
+.main-part button:hover{
+    border: 2px solid #ff505f;
+    background-color: white;
+    color: #ff505f;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/* FOOTER CSS */
+.foot img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-top: 129px;
+    margin-right: 19px;
+}
